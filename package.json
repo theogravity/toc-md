@@ -31,7 +31,8 @@
     "marked": "0.7.0",
     "parse5": "5.1.1",
     "vow-fs": "^0.3.6",
-    "vow-node": "0.3.0"
+    "vow-node": "0.3.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
@@ -41,11 +42,14 @@
   "scripts": {
     "test": "npm run lint && npm run unit-test",
     "lint": "eslint .",
-    "unit-test": "mocha test"
+    "unit-test": "mocha test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=0.8.0",
     "npm": ">=1.2.10"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
