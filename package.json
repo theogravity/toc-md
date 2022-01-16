@@ -28,7 +28,7 @@
     "@dabh/colors": "1.4.0",
     "inherit": "^2.2.7",
     "lodash": "^4.17.21",
-    "marked": "^2.0.6",
+    "marked": "^4.0.10",
     "parse5": "^6.0.1",
     "vow-fs": "^0.3.6",
     "vow-node": "^0.3.0"
